@@ -1,0 +1,3 @@
+subscription Testing($filePath: String!) {
+  subscribe(path: $filePath)
+}
