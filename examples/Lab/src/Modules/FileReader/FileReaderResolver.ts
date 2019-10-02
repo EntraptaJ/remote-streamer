@@ -24,6 +24,6 @@ export class FileReaderResovler {
     }
   })
   subscribe(@Arg('path') path: string, @Root() stuff: Buffer): string {
-    return stuff.toString('');
+    return stuff.toString('base64');
   }
 }
